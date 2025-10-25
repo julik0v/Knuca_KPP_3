@@ -1,0 +1,148 @@
+/* верхня плашка меню */
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.7; 
+}
+
+/* центрування контенту */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* стиль шапки  */
+.header {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #ffffff;
+    border-bottom: 1px solid #eeeeee;
+}
+
+/*веерхні кнопки */
+.nav {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    max-width: 1100px; 
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.nav ul {
+    list-style: none; 
+    display: flex;
+}
+
+.nav li {
+    margin-left:  100px; /* Відстань між пунктами меню */
+}
+
+.nav a {
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+/* eфект при наведенні на посилання в меню */
+.nav a:hover {
+    color: #E65A4F;
+}
+
+/* Main */
+
+.hero-image img {
+    width: 100%;
+    display: block;
+    max-height: 500px;
+    object-fit: cover; 
+}
+ /* фон */
+.content {
+    background-color: #e6594f0f;
+    padding: 70px 0;
+    text-align: center;
+}
+
+.content-title {
+    /* стиль заголовка тексту*/
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #222;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 25px;
+}
+
+.content-intro {
+    font-size: 16px; 
+    max-width: 750px;
+    margin: 0 auto 40px auto;
+    color: #6c757d; 
+}
+
+.content-columns {
+    font-size: 16px; 
+    max-width: 750px;
+    margin: 0 auto 40px auto;
+    color: #6c757d; 
+}
+
+.btn {
+    display: inline-block;
+    background-color: #E65A4F;
+    color: #ffffff;
+    padding: 16px 32px;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif; 
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 5px;
+
+}
+
+/* кнопка:  темнішає  при наведенні */
+.btn:hover {
+    background-color: #d1483e; 
+    transform: scale(1.05); 
+}
+
+.footer {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    
+    max-width: 1000px; 
+    margin: 0 auto; 
+    padding: 40px 15px; 
+    
+    color: #888888;
+    font-size: 14px;
+ 
+}
+
+
+.footer .footer-copyright {
+    margin: 0;
+}
+
+
+.footer-links a {
+    color: #888888;
+    text-decoration: none;
+    margin: 0 5px; /* відступи між посиланнями */
+}
+
+/* Ефект при наведенні на посилання */
+.footer-links a:hover {
+   color: #E65A4F;
+}
