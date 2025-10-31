@@ -1,0 +1,155 @@
+/* ====== Загальні стилі ====== */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+.wrapper {
+  width: 1280px;
+  margin: 0 auto;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* ====== Шапка сайту ====== */
+.header {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 25px 0;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* ====== Верхнє меню ====== */
+.nav ul {
+  list-style: none;        /* Прибирає крапки */
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.nav li {
+  display: inline-block;   /* Розташовує пункти в один ряд */
+  margin: 0 20px;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.nav a:hover {
+  color: #00b894;
+}
+
+/* ====== Основний контент ====== */
+main {
+  padding: 30px;
+  text-align: center;
+}
+
+/* ====== Бокове меню ====== */
+.sidebar {
+  display: inline-block;
+  width: 200px;
+  vertical-align: top;
+  text-align: left;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin: 10px 0;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.sidebar a:hover {
+  color: #00b894;
+}
+
+/* ====== Зображення (в рамці) ====== */
+.image-block {
+  display: inline-block;
+  width: 600px;
+  height: 400px;
+  border: 3px solid #ccc;
+  vertical-align: top;
+  margin-left: 40px;
+  text-align: center;
+  line-height: 400px; /* Центрування по вертикалі */
+  background: #fafafa;
+}
+
+.image-block img {
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
+}
+
+/* ====== Текстовий блок ====== */
+.content {
+  display: inline-block;
+  width: 900px;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.container {
+  padding: 20px;
+}
+
+.content-intro {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* ====== Футер ====== */
+.footer {
+  background: #222;
+  color: #fff;
+  padding: 20px 40px;
+  text-align: center;
+}
+
+.footer-links {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #00b894;
+}
+
+.footer-copyright {
+  font-size: 14px;
+  color: #ccc;
+  margin: 0;
+}
