@@ -6,6 +6,7 @@ body {
     color: #333;
     font-size: 16px;
     line-height: 1.7; 
+    
 }
 
 /* центрування контенту */
@@ -37,12 +38,11 @@ body {
 .nav ul {
     list-style: none; 
     display: flex;
+    justify-content: center; 
+    gap: 40px; 
+    margin: 0; 
+    padding: 0;
 }
-
-.nav li {
-    margin-left:  100px; /* Відстань між пунктами меню */
-}
-
 .nav a {
     text-decoration: none;
     color: #555;
@@ -64,6 +64,8 @@ body {
     display: block;
     max-height: 500px;
     object-fit: cover; 
+    max-width: 750px; 
+    margin: 0 auto; 
 }
  /* фон */
 .content {
