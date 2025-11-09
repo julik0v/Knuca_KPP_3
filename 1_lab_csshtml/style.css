@@ -54,7 +54,7 @@ body {
 
 /* eфект при наведенні на посилання в меню */
 .nav a:hover {
-    color: #E65A4F;
+    color: #16a085;
 }
 
 /* Main */
@@ -69,7 +69,7 @@ body {
 }
  /* фон */
 .content {
-    background-color: #e6594f0f;
+    background-color: #f5f6f7;
     padding: 70px 0;
     text-align: center;
 }
