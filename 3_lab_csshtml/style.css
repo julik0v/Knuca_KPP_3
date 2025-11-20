@@ -43,6 +43,11 @@ body {
     width: 53px; 
     height: 47px;
     margin-right: 14px;
+    background-image: url('logo-white.png'); 
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .logo-text {
@@ -70,7 +75,10 @@ body {
 .logo:hover .logo-text-holidays {
     color: #f26522;; 
 }
-
+.logo:hover .logo-icon {
+    background-image: url('logo-orange.png');
+    
+}
 
 .contacts {
     float: right;
